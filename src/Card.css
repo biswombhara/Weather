@@ -1,0 +1,22 @@
+.card{
+    margin: 0 auto;
+    padding-bottom: 0.75rem;
+}
+.error{
+    color: red;
+    background-color: white;
+    width: fit-content;
+    padding: 8px;
+    font-size: 150%;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.err{
+    margin: 0 auto;
+    width: fit-content;
+}
+.gif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

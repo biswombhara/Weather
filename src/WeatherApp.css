@@ -1,0 +1,40 @@
+.WeatherApp{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding-bottom: 1.5rem;
+}
+.WeatherBox{    
+    background-size: cover;
+    height: 102.7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Clouds{
+    background-image: url("https://31.media.tumblr.com/tumblr_maolcpnQS61qakj1do1_500.gif");
+}
+.Mist{
+    background-image: url("https://i.pinimg.com/originals/cc/51/a3/cc51a378a4accec027b87361dab54217.gif");
+}
+.Default{
+    background-image: url("https://www.icegif.com/wp-content/uploads/2023/03/icegif-264.gif");
+}
+.Rain{
+    background-image: url("https://i.pinimg.com/originals/51/9a/83/519a837a74de5c3a0638a40a31ae0324.gif");
+}
+.Haze{
+    background-image: url("https://media.tenor.com/bnvs-f9hunUAAAAM/greys-anatomy-foggy.gif");
+}
+.Thunderstorm{
+    background-image: url("https://64.media.tumblr.com/47051bcc50979603cdc964f45e88ea73/tumblr_ox3z6oMet21wcvizmo1_540.gif");
+}
+.Clear{
+    background-image: url("https://i.pinimg.com/originals/71/b0/a4/71b0a4555278bb8e2fea206cc5918276.gif");
+}
+.Snow{
+    background-image: url("https://www.icegif.com/wp-content/uploads/2022/11/icegif-894.gif");
+}

@@ -1,0 +1,11 @@
+/* #root {
+ background-image: url("https://images.pexels.com/photos/1222561/pexels-photo-1222561.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+ background-size: cover;
+ height: 102.7vh;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+body{
+  margin: -20px 0 0 0;
+}
