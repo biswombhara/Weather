@@ -13,7 +13,6 @@ export default function WeatherApp(){
         Max_Temp : "306.26",
         Min_Temp: "294.05",
     });
-    console.log(typeof(Info.Name))
     let updateInfo = (update) =>{
         setInfo(update);
     }

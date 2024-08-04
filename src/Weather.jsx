@@ -5,7 +5,7 @@ import "./Weather.css";
 import { useState } from 'react';
 export default function Weather({updateInfo}){
     let API_KEY = "48b5cd32b12af7feaf9af5b1abc7e9bf";
-    let API_URL = "http://api.openweathermap.org/data/2.5/weather";
+    let API_URL = "https://api.openweathermap.org/data/2.5/weather";
     let [city, setCity] = useState("");
     let handleChange = (e)=>{
         setCity(e.target.value);
@@ -14,6 +14,7 @@ export default function Weather({updateInfo}){
     let getWeather = async ()=>{
         try{
             let response = await fetch(`${API_URL}?q=${city}&appid=${API_KEY}`);
+            console.log(response.url)
             let weather = await response.json();
             weatherReport = {
                 Name: weather.name,
