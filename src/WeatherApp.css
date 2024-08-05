@@ -38,3 +38,8 @@
 .Snow{
     background-image: url("https://www.icegif.com/wp-content/uploads/2022/11/icegif-894.gif");
 }
+@media screen and (max-width: 770px) {
+    .WeatherApp {
+      scale: 0.85;
+    }
+  }

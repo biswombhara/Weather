@@ -18,3 +18,11 @@ hr {
     width: 75vw;
     margin: 2rem auto;
 }
+@media screen and (max-width: 770px) {
+    .weather {
+      scale: 0.85;
+    }
+    h2{
+        margin: 18px auto;
+    }
+  }
