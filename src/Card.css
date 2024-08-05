@@ -21,7 +21,7 @@
     align-items: center;
 }
 @media screen and (max-width: 770px) {
-    .card {
+    .card, .err {
       scale: 0.9;
     }
   }
